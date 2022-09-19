@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-light {
+    background-color: #90C7CB!important;
+}
+
+.nav-item:hover {
+    background-color: #BADCDE!important;
+    border:solid !important;
+    border-width: 1px!important;
+    border-color: #499497!important;
+    
+}
+
+.nav-item:hover a {
+    padding:7px!important;
+    
+}
