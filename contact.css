@@ -64,6 +64,11 @@ body {
   justify-content: center;
 }
 
+.column {
+  display: flex;
+  width: 300px;
+}
+
 ul { 
 	display: inline-block; 
 	text-align: left; 
