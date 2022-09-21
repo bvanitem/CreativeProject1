@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-light {
+    background-color: #90C7CB!important;
+}
+
+.nav-item:hover {
+    background-color: #BADCDE!important;
+    border:solid !important;
+    border-width: 1px!important;
+    border-color: #499497!important;
+    
+}
+
+.nav-item:hover a {
+    padding:7px!important;
+    
+}
+
+
+.about-me img{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  object-fit: contain;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+.col-lg {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  padding-left: 0px;
+  padding: 30px;
+}
+
+.row2 {
+    justify-content: center;
+}
+
+.more-about {
+    padding-top: 20px;
+}
+
+ul { 
+	display: inline-block; 
+	text-align: left; 
+}
+
+h2 {
+    font-family: Lobster Two; 
+    font-size: 26px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    padding: 20px;
+}
+
+h1 { 
+    font-family: Lobster Two; 
+    font-size: 24px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    
+} 
+
+h3 { 
+    font-family: Lobster Two; 
+    font-size: 22px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+    padding: 20px;
+} 
+
+li { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+}
+
+blockquote { 
+    font-family: Lobster Two; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: Lobster Two; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+}
