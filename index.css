@@ -38,6 +38,15 @@ p {
     background-color: #BADCDE!important;
 }
     
+li { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+}
+    
 }
 
 @media only screen and (min-width: 801px) {
@@ -102,6 +111,15 @@ hr {
     font-size: 32px;
     width: 400px;
 
+}
+
+li { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
 }
 
 }
