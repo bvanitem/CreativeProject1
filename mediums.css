@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-light {
+    background-color: #90C7CB!important;
+}
+
+.nav-item:hover {
+    background-color: #BADCDE!important;
+    border:solid !important;
+    border-width: 1px!important;
+    border-color: #499497!important;
+    
+}
+
+.nav-item:hover a {
+    padding:7px!important;
+    
+}
+
+
+.col-pic {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  padding: 30px;
+}
+
+.col-pic img{
+  display: flex;
+  max-width: 100%;
+  height:auto;
+  object-fit: contain;
+  justify-content: center;
+}
+
+.innerRow {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.alignBottom {
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addToCart {
+  color: #000;
+  background-color: #90C7CB;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border: 12px solid #FFF;
+  border-radius: 10px;
+}
+
+.viewInfo {
+  max-height: 90px;
+  color: #000;
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border: 12px solid #FFF;
+  border-radius: 10px;
+}
+
+ul { 
+	display: inline-block; 
+	text-align: left; 
+}
+
+h2 {
+    font-family: Lobster Two; 
+    font-size: 26px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    padding: 20px;
+}
+
+h1 { 
+    padding-top: 30px;
+    font-family: Lobster Two; 
+    font-size: 30px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    
+} 
+
+h3 { 
+    font-family: Lobster Two; 
+    font-size: 22px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+    padding: 20px;
+} 
+
+li { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+}
+
+blockquote { 
+    font-family: Lobster Two; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: Lobster Two; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+}
