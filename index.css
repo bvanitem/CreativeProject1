@@ -2,12 +2,19 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
+h2 {
+    font-family: Lobster Two; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;margin-top:15px;
+}
 
+p {
+    font-family: Lobster Two; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; width:60%
+}
 
 .bg-light {
-    background-color: #9BF6FF!important;
+    background-color: #90C7CB!important;
 }
 
 .nav-item:hover {
@@ -18,11 +25,13 @@ body {
     
 }
 
+
+
 .nav-item:hover a {
     padding:7px!important;
     
 }
 
 .bg-success {
-    background-color: #FFADAD!important;
+    background-color: #BADCDE!important;
 }
