@@ -1,3 +1,4 @@
+@media only screen and (max-width: 400px){
 body {
     margin: 0;
     padding: 0;
@@ -23,7 +24,15 @@ body {
     
 }
 
-.row-portfolio {
+.container {
+    margin-bottom: 25px;
+}
+
+.contactimgs {
+    width:70px;
+    height: auto;
+}
+/*.row-portfolio {
   display: flex;
   justify-content: center;
   padding: 30px;
@@ -68,7 +77,7 @@ body {
   display: flex;
   width: 300px;
 }
-
+*/
 ul { 
 	display: inline-block; 
 	text-align: left; 
@@ -137,4 +146,324 @@ pre {
     font-variant: normal; 
     font-weight: 400; 
     line-height: 18.5714px; 
+}
+
+
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 401px) {
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-light {
+    background-color: #90C7CB!important;
+}
+
+.nav-item:hover {
+    background-color: #BADCDE!important;
+    border:solid !important;
+    border-width: 1px!important;
+    border-color: #499497!important;
+    
+}
+
+.nav-item:hover a {
+    padding:7px!important;
+    
+}
+
+.container {
+    margin-bottom: 25px;
+}
+
+.contactimgs {
+    width:120px;
+    height: auto;
+}
+/*.row-portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.col-review {
+  color: #FFF;
+  background-color: #90C7CB;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 400px;
+  width:400px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.col-review p{
+  display: flex;
+  font-size: 20px;
+  font-family: Copperplate Gothic Light;
+}
+
+.col-img {
+  justify-content: center;
+  padding-left: 0px;
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  object-fit: contain;
+}
+
+.col-img img{
+  max-width: 100%;
+  height:auto;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  width: 300px;
+}
+*/
+ul { 
+	display: inline-block; 
+	text-align: left; 
+}
+
+h2 {
+    font-family: Lobster Two; 
+    font-size: 26px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    padding: 20px;
+}
+
+h1 { 
+    font-family: Lobster Two; 
+    font-size: 24px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    
+} 
+
+h3 { 
+    font-family: Lobster Two; 
+    font-size: 22px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+    padding: 20px;
+} 
+
+li { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+}
+
+blockquote { 
+    font-family: Lobster Two; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: Lobster Two; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+}
+
+}
+
+
+
+@media only screen and (min-width: 801px) {
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 165px;
+}
+
+
+.container {
+    width: 50%;
+}
+
+.bg-light {
+    background-color: #90C7CB!important;
+}
+
+.nav-item:hover {
+    background-color: #BADCDE!important;
+    border:solid !important;
+    border-width: 1px!important;
+    border-color: #499497!important;
+    
+}
+
+.nav-item:hover a {
+    padding:7px!important;
+    
+}
+
+.container {
+    margin-bottom: 25px;
+}
+
+.contactimgs {
+    width:120px;
+    height: auto;
+}
+/*.row-portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.col-review {
+  color: #FFF;
+  background-color: #90C7CB;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 400px;
+  width:400px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.col-review p{
+  display: flex;
+  font-size: 20px;
+  font-family: Copperplate Gothic Light;
+}
+
+.col-img {
+  justify-content: center;
+  padding-left: 0px;
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  object-fit: contain;
+}
+
+.col-img img{
+  max-width: 100%;
+  height:auto;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  width: 300px;
+}
+*/
+ul { 
+	display: inline-block; 
+	text-align: left; 
+}
+
+h2 {
+    font-family: Lobster Two; 
+    font-size: 26px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    padding: 20px;
+}
+
+h1 { 
+    font-family: Lobster Two; 
+    font-size: 24px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    
+} 
+
+h3 { 
+    font-family: Lobster Two; 
+    font-size: 22px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+    padding: 20px;
+} 
+
+li { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+}
+
+blockquote { 
+    font-family: Lobster Two; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: Lobster Two; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+}
+
+    
 }
