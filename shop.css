@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h2 {
+    font-family: Lobster Two; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;margin-top:15px;
+}
+
+p {
+    font-family: Lobster Two; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px; width:60%
+}
+
+.bg-light {
+    background-color: #90C7CB!important;
+}
+
+.nav-item:hover {
+    background-color: #BADCDE!important;
+    border:solid !important;
+    border-width: 1px!important;
+    border-color: #499497!important;
+    
+}
+
+
+
+.nav-item:hover a {
+    padding:7px!important;
+    
+}
+
+.bg-success {
+    background-color: #BADCDE!important;
+}
+
+.row-portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.col-img {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+.col-img img{
+  max-width: 100%;
+  height:auto;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.col-text {
+  color: #FFF;
+  background-color: #5D867D;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 400px;
+  width:400px;
+}
+
+.col-text p{
+  font-size: 40px;
+  font-family: Copperplate Gothic Light;
+}
