@@ -25,8 +25,6 @@ p {
     
 }
 
-
-
 .nav-item:hover a {
     padding:7px!important;
     
@@ -59,7 +57,7 @@ p {
 
 .col-text {
   color: #FFF;
-  background-color: #5D867D;
+  background-color: #90C7CB;
   display: flex;
   justify-content: center;
   align-items:center;
@@ -68,6 +66,53 @@ p {
 }
 
 .col-text p{
-  font-size: 40px;
-  font-family: Copperplate Gothic Light;
+  font-size: 30px;
+  font-family: Lobster Two;
 }
+
+.container a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+h2 {
+    font-family: Lobster Two; 
+    font-size: 26px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    padding: 20px;
+}
+
+h1 { 
+    font-family: Lobster Two; 
+    font-size: 24px; font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+    
+} 
+
+h3 { 
+    font-family: Lobster Two; 
+    font-size: 22px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p { 
+    font-family: Lobster Two; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+    padding: 20px;
+} 
